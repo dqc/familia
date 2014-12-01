@@ -16,16 +16,23 @@
 
 body {
   background-image: url(beach.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+p {
+  font-family: Helvetica, Sans-Serif;
 }
 
 .jumbotron {
   color: black;
   width: 1140px;
   height: 423px;
-  background-color: rgba(127, 140, 141,0.2);
+  background-color: rgba(236, 240, 241,0.3);
   padding: 0px;
   position: relative;
   top: 80px;
@@ -35,6 +42,12 @@ body {
   border-radius: 20px;
 }
 
-.about-main {
+.jumbotron p {
+  font-size: 21px;
+  font-weight: 500;
+}
 
+.about {
+  position: relative;
+  top: 20px;
 }
