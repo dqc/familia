@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
 */
-
+/*
 body {
   background-image: url(beach.jpg);
   -webkit-background-size: cover;
@@ -23,6 +23,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+*/
 
 p {
   font-family: Helvetica, Sans-Serif;

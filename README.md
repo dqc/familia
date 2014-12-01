@@ -1,4 +1,4 @@
-# One Month Rails
+# Familia
 
-This is a pinteresting application I created from the One Month Rails course (http://onemonthrails.com)
+This is an application I created based off of the One Month Rails course (http://onemonthrails.com)
 
