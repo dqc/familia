@@ -29,7 +29,6 @@ body.home {
   background-attachment: fixed;
 }
 
-
 p {
   font-family: Helvetica, Sans-Serif;
 }
@@ -53,6 +52,26 @@ p {
   font-weight: 500;
 }
 
+/*Home Section_____*/
+.welcomeMessage {
+  color: #34495e !important;
+  text-stroke: .5px white;
+  -webkit-text-stroke: .5px white;
+  -moz-text-stroke: .5px white;
+  -o-text-stroke: .5px white;
+  font-weight: bold;
+}
+
+.welcome-p {
+  color: #34495e;
+}
+
+/*Navbar Setion________*/
+.nav li {
+  font-size: 1.5em;
+}
+
+/*About Section*/
 .about {
   position: relative;
   top: 20px;
@@ -203,18 +222,6 @@ input:focus, textarea:focus {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-
-/*
-#button-blue:hover{
-  background-color: rgba(0,0,0,0);
-  color: #0493bd;
-}
-  
-.submit:hover {
-  color: #3498db;
-}
- */
-
 
 @media only screen and (max-width: 580px) {
   #form-div{
