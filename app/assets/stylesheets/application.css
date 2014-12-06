@@ -16,7 +16,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
 
 body {
-  font-family: 'Lora', serif !important;font-family: 'Lato', sans-serif !important;
+font-family: 'Lato', sans-serif !important;
 }
 
 body.home {
@@ -73,7 +73,7 @@ p {
   top: 20px;
 }
 
-/*Login Seciton*/
+/*Login Section*/
 .login-header {
   font-size: 5em;
   color: #34495e;
