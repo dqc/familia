@@ -55,10 +55,6 @@ p {
 /*Home Section_____*/
 .welcomeMessage {
   color: #34495e !important;
-  text-stroke: .5px white;
-  -webkit-text-stroke: .5px white;
-  -moz-text-stroke: .5px white;
-  -o-text-stroke: .5px white;
   font-weight: bold;
 }
 
