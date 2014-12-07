@@ -1,12 +1,13 @@
-<body class="container home">
-<div class="jumbotron home text-center" style="background-color: transparent;">
-  <h1 class="welcomeMessage">Welcome to Familia!</h1>
-  <p class="welcome-p">Share all your pictures between friends and family.</p>
-  <p><%= link_to "Login", "#", class: "btn btn-primary btn-lg" %>
-    <%= link_to "Sign up", "#", class: "btn btn-default btn-lg" %>
-  </p>
-</div>
-
+<body class="home">
+  <div class="container">
+    <div class="jumbotron text-center" style="background-color: transparent;">
+      <h1 class="welcomeMessage">Welcome to Familia!</h1>
+        <p class="welcome-p">Share all your pictures between friends and family.</p>
+        <p><%= link_to "Login", new_user_session_path, class: "btn btn-primary btn-lg" %>
+    <%= link_to "Sign up", new_user_registration_path, class: "btn btn-default btn-lg" %>
+        </p>
+    </div>
+  </div>
 </body>
 
 
