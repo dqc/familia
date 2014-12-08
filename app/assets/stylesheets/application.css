@@ -19,6 +19,7 @@ body {
 font-family: 'Lato', sans-serif !important;
 }
 
+/*
 body.home {
   background-image: url(beach.jpg);
   -webkit-background-size: cover;
@@ -28,6 +29,7 @@ body.home {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+*/
 
 p {
   font-family: Helvetica, Sans-Serif;
